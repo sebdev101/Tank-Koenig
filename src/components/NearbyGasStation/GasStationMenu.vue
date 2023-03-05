@@ -65,14 +65,14 @@
     </v-row>
   </v-container>
   <v-container>
-    <GastStationList :gasStationList="gasStationList" />
+    <GasStationList :gasStationList="gasStationList" />
   </v-container>
 </template>
 
 <script setup>
 import { ref, onMounted, watch } from "vue";
 import { useGasStationStore } from "@/store/gas-station.store.js";
-import  GastStationList  from "./GastStationList.vue";
+import  GasStationList  from "./GasStationList.vue";
 import { useDisplay } from 'vuetify'
 
 const { xs } = useDisplay()

@@ -10,7 +10,7 @@ const routes = [
   {
     path: '/nearbyGasStation',
     name: "nearbyGasStation",
-    component: () => import('@/components/NearbyGastStation/GastStationMenu.vue'),
+    component: () => import('@/components/NearbyGasStation/GasStationMenu.vue'),
   },
 ]
 
