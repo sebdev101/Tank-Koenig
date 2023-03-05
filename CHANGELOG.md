@@ -1,3 +1,12 @@
+## [0.3.4](https://github.com/sebdev101/Tank-Koenig/compare/v0.3.3...v0.3.4) (2023-03-05)
+
+
+### Bug Fixes
+
+* Improve responsivity ([b75ee8f](https://github.com/sebdev101/Tank-Koenig/commit/b75ee8f41af526226464d8ee9b9f09bb009ddcc0))
+
+
+
 ## [0.3.3](https://github.com/sebdev101/Tank-Koenig/compare/v0.3.2...v0.3.3) (2023-03-05)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Created gas station list with filters ([13827d5](https://github.com/sebdev101/Tank-Koenig/commit/13827d51dccbe3b3aae882735da3bcd9ef2cdb09))
-
-
-
-## [0.2.1](https://github.com/sebdev101/Tank-Koenig/compare/v0.2.0...v0.2.1) (2023-03-05)
-
-
-### Bug Fixes
-
-* Default page and router updated ([fcede70](https://github.com/sebdev101/Tank-Koenig/commit/fcede7082d85645cd40ed975cf24ed58d438b081))
 
 
 
