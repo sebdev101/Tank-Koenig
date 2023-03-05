@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/sebdev101/Tank-Koenig/compare/v0.3.0...v0.3.1) (2023-03-05)
+
+
+### Bug Fixes
+
+* Change title ([9551b8e](https://github.com/sebdev101/Tank-Koenig/commit/9551b8e3e7498c97f3ff5b13a12390e39c7b0b3f))
+
+
+
 # [0.3.0](https://github.com/sebdev101/Tank-Koenig/compare/v0.2.1...v0.3.0) (2023-03-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * remove default layout ([ff4149f](https://github.com/sebdev101/Tank-Koenig/commit/ff4149ff5a8df99eb340cf80ace2ff7639cfa5cb))
-
-
-
-## [0.1.1](https://github.com/sebdev101/Tank-Koenig/compare/v0.1.0...v0.1.1) (2023-03-05)
-
-
-### Bug Fixes
-
-* remove unused files ([4817feb](https://github.com/sebdev101/Tank-Koenig/commit/4817febd88d8a87c3dcbb9eb466ab48e804154c1))
 
 
 
