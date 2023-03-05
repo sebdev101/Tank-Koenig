@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/sebdev101/Tank-Koenig/compare/v0.2.0...v0.2.1) (2023-03-05)
+
+
+### Bug Fixes
+
+* Default page and router updated ([fcede70](https://github.com/sebdev101/Tank-Koenig/commit/fcede7082d85645cd40ed975cf24ed58d438b081))
+
+
+
 # [0.2.0](https://github.com/sebdev101/Tank-Koenig/compare/v0.1.2...v0.2.0) (2023-03-05)
 
 
