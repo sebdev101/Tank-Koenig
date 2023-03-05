@@ -1,3 +1,12 @@
+## [0.3.3](https://github.com/sebdev101/Tank-Koenig/compare/v0.3.2...v0.3.3) (2023-03-05)
+
+
+### Bug Fixes
+
+* Update main colors ([fba389f](https://github.com/sebdev101/Tank-Koenig/commit/fba389f7060a8c2e38409fd446c487993711716a))
+
+
+
 ## [0.3.2](https://github.com/sebdev101/Tank-Koenig/compare/v0.3.1...v0.3.2) (2023-03-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Default page and router updated ([fcede70](https://github.com/sebdev101/Tank-Koenig/commit/fcede7082d85645cd40ed975cf24ed58d438b081))
-
-
-
-# [0.2.0](https://github.com/sebdev101/Tank-Koenig/compare/v0.1.2...v0.2.0) (2023-03-05)
-
-
-### Features
-
-* Create gas station store ([6e3bac7](https://github.com/sebdev101/Tank-Koenig/commit/6e3bac73330ee0b1b601c5b1e13b9092dc0c9ccb))
 
 
 
