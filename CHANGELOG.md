@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/sebdev101/Tank-Koenig/compare/v0.1.1...v0.1.2) (2023-03-05)
+
+
+### Bug Fixes
+
+* remove default layout ([ff4149f](https://github.com/sebdev101/Tank-Koenig/commit/ff4149ff5a8df99eb340cf80ace2ff7639cfa5cb))
+
+
+
 ## [0.1.1](https://github.com/sebdev101/Tank-Koenig/compare/v0.1.0...v0.1.1) (2023-03-05)
 
 
