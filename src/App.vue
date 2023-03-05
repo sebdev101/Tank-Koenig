@@ -2,7 +2,7 @@
     <v-layout>
     <v-app-bar
       color="primary"
-      density="compact"
+      elevation="2"
     >
       <v-app-bar-title class="ml-6">Tank Koenig</v-app-bar-title>
     </v-app-bar>

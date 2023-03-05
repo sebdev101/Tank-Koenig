@@ -1,7 +1,7 @@
 <template>
   <v-container class="mt-6">
-    <v-row class="d-flex align-center justify-center">
-      <v-col cols="3">
+    <v-row :class="xs ? 'd-flex flex-column align-center' : 'd-flex align-center justify-center'">
+      <v-col :cols="xs ? 10 : 4">
         <v-text-field
           :disabled="isLoading"
           :loading="isLoading"
@@ -13,7 +13,7 @@
           density="comfortable"
         />
       </v-col>
-      <v-col cols="3">
+      <v-col :cols="xs ? 10 : 4">
         <v-text-field
           :disabled="isLoading"
           :loading="isLoading"
@@ -26,8 +26,8 @@
         />
       </v-col>
     </v-row>
-    <v-row class="d-flex align-center justify-center">
-      <v-col cols="3">
+    <v-row :class="xs ? 'd-flex flex-column align-center' : 'd-flex align-center justify-center'">
+      <v-col :cols="xs ? 10 : 4">
         <v-select
           clearable
           :disabled="isLoading"
@@ -40,7 +40,7 @@
           density="comfortable"
         />
       </v-col>
-      <v-col cols="3">
+      <v-col :cols="xs ? 10 : 4">
         <v-select
           label="Select your fuel type"
           :disabled="isLoading"
@@ -56,8 +56,8 @@
     <v-row class="d-flex align-center justify-center">
       <v-col cols="auto">
         <v-checkbox
-        :disabled="isLoading"
-
+          :disabled="isLoading"
+          hide-details="true"
           v-model="hideClosedGasStationsStatus"
           :label="`Show only open: ${hideClosedGasStationsStatus.toString()}`"
         ></v-checkbox>
@@ -65,9 +65,7 @@
     </v-row>
   </v-container>
   <v-container>
-    <GastStationList
-    :gasStationList="gasStationList"></GastStationList>
-
+    <GastStationList :gasStationList="gasStationList" />
   </v-container>
 </template>
 
@@ -75,6 +73,9 @@
 import { ref, onMounted, watch } from "vue";
 import { useGasStationStore } from "@/store/gas-station.store.js";
 import  GastStationList  from "./GastStationList.vue";
+import { useDisplay } from 'vuetify'
+
+const { xs } = useDisplay()
 const gasStationStore = useGasStationStore();
 
 // -- Local Variables --
@@ -167,20 +168,4 @@ onMounted(() => {
 });
 </script>
 
-<style >
-.bg-color {
-  background-color: #fefaeb;
-}
-
-.text-color {
-  color: #4c54a0;
-}
-
-.button-style {
-  font-size: 12px !important;
-  font-weight: 700 !important;
-  box-shadow: none !important;
-  color: #fff !important;
-  background-color: #01cea3 !important;
-}
-</style>
+<style ></style>
