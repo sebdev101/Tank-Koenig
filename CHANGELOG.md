@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/sebdev101/Tank-Koenig/compare/v0.1.2...v0.2.0) (2023-03-05)
+
+
+### Features
+
+* Create gas station store ([6e3bac7](https://github.com/sebdev101/Tank-Koenig/commit/6e3bac73330ee0b1b601c5b1e13b9092dc0c9ccb))
+
+
+
 ## [0.1.2](https://github.com/sebdev101/Tank-Koenig/compare/v0.1.1...v0.1.2) (2023-03-05)
 
 
