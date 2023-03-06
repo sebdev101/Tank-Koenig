@@ -3,7 +3,7 @@
     <v-row class="d-flex align-center justify-center">
       <v-col cols="auto">
         <v-btn
-          to="nearbyGasStation"
+          to="NearbyGasStation"
         > Check nearby gas price</v-btn>
       </v-col>
     </v-row>

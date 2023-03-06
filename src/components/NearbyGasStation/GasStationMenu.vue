@@ -167,5 +167,3 @@ onMounted(() => {
   getUserLocation();
 });
 </script>
-
-<style ></style>

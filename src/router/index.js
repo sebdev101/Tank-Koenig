@@ -4,13 +4,25 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: () => import('@/views/DefaultPage.vue'),
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Home',
+        component: () => import( '@/components/SelectMenu.vue'),
+      },
+    ],
   },
   {
     path: '/nearbyGasStation',
-    name: "nearbyGasStation",
-    component: () => import('@/components/NearbyGasStation/GasStationMenu.vue'),
+    name: 'NearbyGasStation',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        component: () => import( '@/components/NearbyGasStation/GasStationMenu.vue'),
+      },
+    ],
   },
 ]
 

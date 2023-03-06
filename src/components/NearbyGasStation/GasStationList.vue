@@ -89,7 +89,7 @@ const copyToClipboard = (gasStation) => {
   navigator.clipboard.writeText(shareMessage)
 }
 </script>
-<style scoped>x
+<style scoped>
 .text-color {
   color: #4c54a0;
 }
