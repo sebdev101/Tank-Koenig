@@ -1,3 +1,12 @@
+## [0.3.5](https://github.com/sebdev101/Tank-Koenig/compare/v0.3.4...v0.3.5) (2023-03-06)
+
+
+### Bug Fixes
+
+* Fix checkbox css ([1754d4f](https://github.com/sebdev101/Tank-Koenig/commit/1754d4fa138e9ae624f98568a384e94a03b65b60))
+
+
+
 ## [0.3.4](https://github.com/sebdev101/Tank-Koenig/compare/v0.3.3...v0.3.4) (2023-03-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Change title ([9551b8e](https://github.com/sebdev101/Tank-Koenig/commit/9551b8e3e7498c97f3ff5b13a12390e39c7b0b3f))
-
-
-
-# [0.3.0](https://github.com/sebdev101/Tank-Koenig/compare/v0.2.1...v0.3.0) (2023-03-05)
-
-
-### Features
-
-* Created gas station list with filters ([13827d5](https://github.com/sebdev101/Tank-Koenig/commit/13827d51dccbe3b3aae882735da3bcd9ef2cdb09))
 
 
 
